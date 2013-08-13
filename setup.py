@@ -20,7 +20,7 @@ packages = [
     ]
 
 requires = [
-        'yaml'
+        'pyyaml'
     ]
 
 setup(
