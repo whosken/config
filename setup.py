@@ -25,7 +25,7 @@ requires = [
 
 setup(
     name='config',
-    verison=config.__version__,
+    version=config.__version__,
     description='Extended YAML and Environment Variable Reader',
     long_description=open('README.md').read(),
     author='Soshio',
