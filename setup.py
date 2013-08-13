@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import os
 import sys
@@ -15,13 +16,16 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 packages = [
-    'config',
-]
+        'config',
+    ]
 
-requires = []
+requires = [
+        'yaml'
+    ]
 
 setup(
     name='config',
+    verison=config.__version__,
     description='Extended YAML and Environment Variable Reader',
     long_description=open('README.md').read(),
     author='Soshio',
